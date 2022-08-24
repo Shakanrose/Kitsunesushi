@@ -1,0 +1,11 @@
+#menu-bar{
+	display:none;
+}
+
+header label {
+float:right;	
+}
+
+.menu {
+	display:none;
+}

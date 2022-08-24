@@ -1,0 +1,572 @@
+body {
+background: ;
+font-family: candara; 
+font-size: 16px;
+width: 960px;
+margin-left:auto; 
+margin-right:auto;
+background-color: #000;
+}
+
+#contenedor{
+background-color:;	
+width: 960px;
+height: 760px;
+margin-left:auto; 
+margin-right:auto;
+}
+
+header{
+width: 960px;
+height: 90px;	
+background: ;
+color: white;
+margin-bottom: 2px;
+background-image:;
+background-color:#000;
+border: double 0px; 
+border-color: #999;
+border-bottom-left-radius: 20px; 
+}
+
+#logo {
+width: 150px;
+height: 85px;
+padding:0px;
+float:left;
+margin-left: 90px;
+margin-top:5px;
+background-color: #000;
+}
+
+#menu{
+width:710px;
+height:90px;
+float:right;
+background-color: #000;
+}
+
+.navegacion{
+width:710px;
+margin:15px auto;
+}
+
+.navegacion ul{
+list-style-type: none;
+margin:0;
+padding: 0;
+}
+
+.menu li{
+position: relative;
+display:inline-block;	
+}
+
+.menu li a{
+display:block;
+padding: 13px 32px;
+color: #fff;
+text-decoration: none;
+font-family: candara;
+font-size: 25px;
+}
+
+.menu li a:hover {
+color: #e67702;	
+display: block;
+}
+
+.subcarta{
+position:absolute;
+display:none;	
+}
+
+.subcarta li a{
+width: 100px;
+height: 25px;	
+background-color: #000;	
+display:block;
+padding: 10px 30px;
+color: #fff;
+text-decoration: none;
+font-family: candara;
+font-size: 25px;	
+}
+
+.menu li:hover .subcarta{
+color: #e67702;	
+display: block;	
+}
+
+#contenido{
+width:600px;
+height:500px;
+float:left;	
+background-image: url(img/niguiri600.png);
+background-size: ;
+background-position: center;
+text-align: justify;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;  
+}
+
+h2{
+padding: 0px 0px 0px 45px;
+color: #b8903b;
+text-decoration: none;
+text-align: left;	
+font-size: 38PX;
+font-family: 'Shadows Into Light', cursive;
+}
+
+.letracolor{
+color:white;
+font-size: 18px;
+font-family: 'Raleway', sans-serif;
+}
+
+#texto{
+width: 290px;
+height: 300px;
+text-align:left;
+margin-right: 0px;
+margin-left: 25px;
+line-height: 22px;
+text-shadow: 2px 1px 1px #000;
+}
+
+#derecha{
+width: 360px;
+height: 500px;
+background-color:#666;
+float:right;
+background-image: url(img/niguiri.jpg);
+background-size: ;
+background-position:left;
+border-top-right-radius: 20px; 
+border-bottom-right-radius: 20px;  
+}
+
+#imgoff{
+width: 150px;
+height: 150px;
+padding-left: 107px;
+margin-top: 20px;
+float:left;
+}
+
+#oferta{
+width: 270px;
+height: 100px;
+float:left;
+text-align:center;
+padding-left:45px;
+line-height: 28px;
+text-shadow:;
+margin-top: 15px;
+}
+
+#sorteo{
+padding-right:20px; 
+margin-top: 90px;	
+padding-left:20px;
+line-height: 20px;
+text-shadow: 2px 2px 2px #000;
+float:left;
+text-align:center;	
+}
+
+.letracolorofer{
+color:white;
+font-size: 28px;
+font-family: Candara;	
+}
+
+.viajemordor{
+color:white;
+font-size: 18px;
+font-family: Candara;		
+}
+
+#espacio{
+width:960px;
+height:50px;
+background-color:;
+float:right;
+margin-top: 0px;
+}
+
+.rayitas{
+text-align: center;
+color:#999;
+}
+
+footer{
+width:960px;
+height:120px;
+background-color:#000000;
+clear:both;
+}
+
+#izq{
+width: 320px;
+height: 120px;
+background-color:#000; 	
+float:left;
+text-align: center;
+}
+
+.letracolors{
+color: white;
+font-size: 14px;
+font-family: candara;
+} 
+
+.contactohorario{
+color:white;
+font-size: 16px;
+font-family: candara;	
+}
+
+#cen-der{
+width:640px;
+height:120px;	
+background-color:#000;
+float:right
+}
+
+#cen{
+width: 320px;
+height: 120px;
+background-color:#000; 
+float:left;
+text-align: center;
+}
+
+.redes {
+	width: 320px;
+	margin-right: auto;
+	margin-left:-18px;
+}
+.redes ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+#der{
+width: 320px;
+height: 120px;
+background-color:#000;
+float:right;
+text-align: center;
+}
+
+#foot{
+width:100%;
+height:20px;
+background-color:;
+margin-top: 15px;
+background-color: #000;
+}
+
+.foot{
+text-align: center;
+color:#999;
+font-family: 'Work Sans', sans-serif;
+}
+
+@media handheld, screen and (min-width: 600px) and (max-width:1023px){
+body {
+width: 580px;
+}
+
+body {
+width: 580px;
+}
+
+#contenedor{
+width: 580px;
+height: auto;
+}
+
+header{
+width: 580px;
+height: auto;
+border: double 0px; 
+border-color: #999;
+
+}
+
+#logo {
+width: 330px;
+height: auto;
+padding:0px;
+float:none;
+margin-left: auto;
+}
+
+#menu{
+width:580px;
+height:auto;
+float:right;
+margin-left: auto;
+margin-top:auto;
+}
+
+.navegacion{
+width:580px;
+}
+
+.menu li a{
+padding: 10px 20px;
+}
+
+.subcarta li a{
+padding: 10px 23px;
+}
+
+#contenido{
+width:300px;
+float:left;	
+background-image: url(img/niguiri500.jpg);
+background-position: center;
+text-align: justify;
+border-bottom-left-radius: 20px; 
+}
+
+#texto{
+width: 260px;
+margin-left: 20px;
+}
+
+.letracolor{
+color:white;
+font-size: 17px;
+font-family: 'Raleway', sans-serif;
+}
+
+#derecha{
+width: 280px;
+border-bottom-right-radius: 20px; 
+}
+
+#imgoff{
+padding-left: 65px;
+margin-top: 20px;
+}
+
+#oferta{
+width: 280px;
+padding-left:0px;
+margin-top: 15px;
+}
+
+#espacio{
+width:580px;
+}
+
+footer{
+width:580px;
+height:120px;
+}
+
+#izq{
+width: 320px;
+height: 120px;
+background-color:#000; 	
+float:none;
+margin-right: auto;
+margin-left:auto;
+text-align: center;
+}
+
+#cen-der{
+width:100%;
+height:auto;	
+float:right
+}
+
+#cen{
+width: 50%;
+}
+
+.redes {
+	width: 100%;
+	margin-right: auto;
+	margin-left:-18px;
+}
+
+#der{
+width: 50%;
+}
+
+}
+
+@media handheld, screen and (max-width: 599px){
+body {
+width: 90%;
+height:auto;
+}
+
+#contenedor{
+width: 90%;
+height: auto;
+}
+
+header{
+width: auto;
+height: 100%;
+border: double 0px; 
+border-color: #999;	
+}
+
+
+#logo {
+width: 20%;
+height: auto;
+padding:0px;
+float:none;
+margin-left: auto;
+margin-right: auto;
+top:2.5em;
+}
+
+#logo img{
+width: 100%
+height:auto;
+}
+
+#menu{
+width:100%;
+height:auto;
+float:none;
+}
+
+.navegacion{
+width:100%;
+margin:15px auto;
+}
+
+.menu li{
+position: relative;
+display:block;	
+}
+
+.menu li a{
+display:block;
+padding: 3%;
+width: 94%
+color: #fff;
+text-decoration: none;
+font-family: candara;
+font-size: 25px;
+text-align: center;
+border-radius: 1em;
+margin-bottom: 0;
+margin-bottom: 2px;
+border-bottom-left-radius: 10px; 
+}
+
+.subcarta li a{
+display:none;
+}
+
+#contenido{
+width:100%;
+height:auto;
+float:left;	
+background-image: url(img/niguiri500.jpg);
+background-position: left;
+border-top-left-radius: 1em; 
+border-top-right-radius: 1em; 
+border-bottom-left-radius: 1em; 
+border-bottom-right-radius: 1em; 
+}
+
+h2{
+padding: 0px 0px 0px 80px;
+}
+
+#texto{
+width: 85%;
+height:auto;
+text-align:left;
+margin-right: 0px;
+margin-left: 25px;
+line-height: 22px;
+text-shadow: 2px 1px 1px #000;
+}
+
+#derecha{
+width: 100%;
+height: auto;
+background-color:#666;
+border-top-left-radius: 1em; 
+border-top-right-radius: 1em; 
+border-bottom-left-radius: 1em; 
+border-bottom-right-radius: 1em;
+margin-top: 0.5em;
+}
+
+#imgoff{
+width: 150px;
+height: 150px;
+padding-left: 123px;
+}
+
+#oferta{
+width: 80%;
+height: 100px;
+padding-left:40px;
+margin-top: 15px;
+margin-left: auto;
+margin-right:auto;
+}
+
+#espacio{
+width:100%;
+height:auto;
+background-color:;
+float:right;
+margin-top: 0px;
+}
+
+footer{
+width:100%;
+height:auto;
+}
+
+#izq{
+width: 100%;
+height: auto;
+}
+
+
+#cen-der{
+width:100%;
+height:auto;	
+float:right
+}
+
+#cen{
+width: 100%;
+height: auto;
+float:none;
+margin-left: auto;
+margin-right:auto;
+text-align: center;
+
+}
+
+.redes {
+	width: 90%;
+	padding-left: 0px;
+	margin-right: 0px;
+}
+
+#der{
+width: 100%;
+height: auto;
+}
+
+}

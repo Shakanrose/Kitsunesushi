@@ -1,0 +1,254 @@
+body {
+background: ;
+font-family: candara; 
+font-size: 16px;
+width: 1280px;
+margin-left:auto; 
+margin-right:auto;
+background-color: #000;
+}
+
+#contenedor{
+background-color:;	
+width: 960px;
+height: 760px;
+margin-left:auto; 
+margin-right:auto;
+}
+
+header{
+width: 960px;
+height: 50px;	
+background: ;
+color: white;
+margin-bottom: 40px;
+background-image:;
+background-color:#000; 
+}
+
+#logo {
+width: 150px;
+height: 60px;
+padding:0px;
+float:left;
+margin-left: 90px;
+margin-top:5px;
+}
+
+#menu{
+width:710px;
+height:60px;
+float:right;
+}
+
+.navegacion{
+width:710px;
+margin:30px auto;
+}
+
+.navegacion ul{
+list-style-type: none;
+margin:0;
+padding: 0;
+}
+
+.menu li{
+position: relative;
+display:inline-block;	
+}
+
+.menu li a{
+display:block;
+padding: 13px 32px;
+color: #fff;
+text-decoration: none;
+font-family: candara;
+font-size: 25px;
+}
+
+.menu li a:hover {
+color: #e67702;	
+display: block;
+}
+
+.subcarta{
+position:absolute;
+display:none;	
+}
+
+.subcarta li a{
+width: 100px;
+height: 25px;	
+background-color: #000;	
+display:block;
+padding: 10px 30px;
+color: #fff;
+text-decoration: none;
+font-family: candara;
+font-size: 25px;	
+}
+
+.menu li:hover .subcarta{
+color: #e67702;	
+display: block;	
+}
+
+#contenido{
+width:600px;
+height:500px;
+float:left;	
+background-image: url(img/niguiri600.png);
+background-size: ;
+background-position: center;
+text-align: justify;
+}
+
+h2{
+padding: 0px 0px 0px 45px;
+color: #b8903b;
+text-decoration: none;
+text-align: left;	
+font-size: 38PX;
+font-family: 'Shadows Into Light', cursive;
+}
+
+.letracolor{
+color:white;
+font-size: 18px;
+font-family: Candara;	
+}
+
+#texto{
+width: 290px;
+height: 300px;
+text-align:left;
+margin-right: 0px;
+margin-left: 25px;
+line-height: 22px;
+text-shadow: 2px 1px 1px #000;
+}
+
+#derecha{
+width: 360px;
+height: 500px;
+background-color:#666;
+float:right;
+background-image: url(img/niguiri.jpg);
+background-size: ;
+background-position:left;
+}
+
+#imgoff{
+width: 150px;
+height: 150px;
+padding-left: 107px;
+padding-right:0px;
+padding-top: 0px;
+float:left;
+}
+
+#oferta{
+width: 270px;
+height: 100px;
+float:left;
+text-align:center;
+padding-left:45px;
+line-height: 20px;
+text-shadow:;
+margin-top: 15px;
+}
+
+#sorteo{
+padding-right:20px; 
+margin-top: 90px;	
+padding-left:20px;
+line-height: 20px;
+text-shadow: 2px 2px 2px #000;
+float:left;
+text-align:center;	
+}
+
+.letracolorofer{
+color:white;
+font-size: 28px;
+font-family: Candara;	
+}
+
+.viajemordor{
+color:white;
+font-size: 18px;
+font-family: Candara;		
+}
+
+#espacio{
+width:960px;
+height:50px;
+background-color:;
+float:right;
+margin-top: 0px;
+}
+
+.rayitas{
+text-align: center;
+color:#999;
+}
+
+footer{
+width:960px;
+height:120px;
+background-color:#000000;
+clear:both;
+}
+
+#izq{
+width: 320px;
+height: 120px;
+background-color:#000; 	
+float:left;
+text-align: center;
+}
+
+.letracolors{
+color: white;
+font-size: 14px;
+font-family: candara;
+} 
+
+.contactohorario{
+color:white;
+font-size: 16px;
+font-family: candara;	
+}
+
+#cen-der{
+width:640px;
+height:120px;	
+background-color:#000;
+float:right
+}
+
+#cen{
+width: 320px;
+height: 120px;
+background-color:#000; 
+float:left;
+text-align: center;
+}
+
+.redes {
+	width: 320px;
+	padding-left: 0px;
+	padding-right: 30px;
+}
+.redes ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+#der{
+width: 320px;
+height: 120px;
+background-color:#000;
+float:right;
+text-align: center;
+}
